@@ -1,0 +1,10 @@
+import {createMachine, assign} from 'xstate'
+
+const log = console.log
+
+export const machine =
+  /** @xstate-layout N4IgpgJg5mDOIC5QAoAuB7C7YEoB0ATmAIYQDEWAdmHgJaUBu6A1jWptvkaQvUwMbFUtdJQDaABgC6iUAAdstYaNkgAHogC0AFgCsATjwBmAEwndugOy6AbPpM3LNgDQgAnloCMADkOeb2ibaEvqWnvqeQd4AvtGu7Fi4hCTkYAQE6AR4cgA2QgBmmQC2eAmcyTx86ILK4tKqCrBKIpSqGgia+rqext42NiYS3t6eRp7aRq4eHT5+AUEhYRFRsfEYifgQtLC5xG5kogDC3KiQDYq1bVoTEniW2j5B5hKDgVOINkZ4Jt66Rv3PAy+JyrEBlJL8E40ACucggQjAB0oAFU4QiIOcmpckOprpZbt4zIMhtYjNpvE53ghTIY9FZdNpLPpGRIDJZYnEQJRMHBVOCuClMc0VDj2po7N47vpFn9yTYrFTNOFbp8jNLvGMRqYGaD+Xgtjs8tN5BcWlcOg9DL4GYyrP8ySZFdptHdzEYJNoAv0JEZLEZdetyvliLQckLsaAxdLdHhuvoRmFgvojEZvE6XZY3R6vTYfX6AxwIVC8LD4adw2bRVoyYZdD865ZfsEKdoqUEXdaTP4fan-vobAWNnhISRyzjGsLWlWLcy8ISzBISbKKS53IhPJm8PZ+tKJkzvCFB5wKyLI1pQjHUwChlrxpM1x0HCY8LmgimImrhgOOUA */
+  createMachine({
+    tsTypes: {} as import('./state-machine.typegen').Typegen0,
+    id: 'machine',
+  })
